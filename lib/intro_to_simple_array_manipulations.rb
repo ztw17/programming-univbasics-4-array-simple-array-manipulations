@@ -7,7 +7,7 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array.pop()
+  array.pop
 end
 
 def pop_with_args(array, n = 2)
@@ -31,7 +31,7 @@ def using_insert(array, element, i = 4)
  end
  
 def using_uniq(array)
-  array.uniq()
+  array.uniq
 end
 
 def using_flatten(array)
