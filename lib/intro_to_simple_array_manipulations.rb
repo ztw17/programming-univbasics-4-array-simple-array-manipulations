@@ -18,6 +18,11 @@ def using_shift(array)
   array.shift 
 end
   
+def using_delete(array, string)
+  array.delete(string)
+end
+
+
 def shift_with_args(array, n = 2)
   array.shift(n)
 end
