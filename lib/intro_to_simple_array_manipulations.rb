@@ -23,7 +23,8 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, i)
-  array.
+  array.delete_at(i)
+end
 def shift_with_args(array, n = 2)
   array.shift(n)
 end
